@@ -27,8 +27,10 @@ p{
 .half-width{
     width: 40%;
     float: left;
-    margin-left: 5%;
-    padding-left: 2%;
+}
+.header .about-me{
+    margin-left: 10%;
+    margin-top: 5%;
 }
 .half-width img{
     width: 100%;
@@ -36,6 +38,7 @@ p{
 .header{
     background-image: url(images/header-bg.png);
     background-repeat: no-repeat;
+    background-size: contain;
 }
 section{
     height: 500px;
@@ -47,6 +50,9 @@ section{
 .biography{
     background-image: url(images/biography-bg.png);
     background-repeat: no-repeat;
+}
+.biography .bio-details{
+    margin-left: 8%;
 }
 
 /* latest Work */
@@ -74,11 +80,11 @@ section{
     text-align: center;
 }
 .footer-items{
-    padding-top: 10%;
+    padding-top: 5%;
     background-image: url(images/footer-bg.png);
     background-repeat: no-repeat;
+    background-size: cover;
     padding-bottom: 1%;
-    background-position:-3vw;
 }
 .client-rating{
     padding: 20px 0px;
